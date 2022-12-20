@@ -10,6 +10,13 @@ import org.bukkit.inventory.ItemStack;
 public class CommandKit implements CommandExecutor{
 
 	//This method is called, when somebody uses our command
+	/*onCommand method that gives the command sender 1 diamond and 20 bricks
+	 * @param sender: is the entity who sent the command
+	 * @param command: is the command being executed
+	 * @param label: 
+	 * @param args: a string array of the arguments for the command
+	 * 
+	 */
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (sender instanceof Player) {
