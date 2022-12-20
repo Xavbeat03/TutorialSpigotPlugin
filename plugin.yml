@@ -1,0 +1,9 @@
+name: TutorialSpigotPlugin
+main: com.Xavbeat03.tutorialPlugin.TutorialSpigotPlugin
+version: 1.0
+api-version: 1.19
+# Replace "kit" with the name of your command.
+commands:
+   kit:
+      description: Gives the user a diamond and 20 bricks
+      usage: /<command>
